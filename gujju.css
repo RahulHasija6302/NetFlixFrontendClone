@@ -1,0 +1,130 @@
+
+*{
+    box-sizing: border-box;
+    margin:auto;
+}
+body{
+  overflow-x: hidden;
+}
+.logo img{
+    height: 33px;
+    width: 99px;
+    margin: 11px 243px 3px 3px;
+    padding: 3px 3px 3px 3px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+.background{
+    background: black;
+    background-size: cover;
+}
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+    margin: 3px 4px 5px 3px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 30px 84px 29px 13px;
+    margin: 9px -5px 2px 3px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 3px 3px 3px 3px;
+    margin: -93px 21px -10px -98px;
+}
+
+.nav-list li a:hover{ 
+    color: rgb(197, 194, 194);
+}
+#searchbtn{
+    
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 16px;
+    margin: 7px 201px -7px 3px;
+    -webkit-filter: invert(100%);
+    
+}
+#children{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 90px 71px 3px 3px;
+    margin: -93px 21px -10px -187px;
+}
+#acc{
+    height: 47px;
+    width: 53px;
+    margin: -3px 43px 2px -70px;
+    padding: 2px 2px 2px -21px;
+}
+ #trailer{
+    width: 1506px;
+    height: 724px;
+    left: -96px;
+    top: -87px;
+   
+} 
+
+.cwcont {
+    display: flex;
+    background-color:black;
+  }
+  
+  .cwcont > div {
+    background-color: white;
+    margin: 22px -77px 30px 85px;
+    padding: 12px 13px -5px -8px;
+    font-size: 30px;
+    height: 145px;
+    width: 228px;
+  }
+  .cwv{
+    height: 145px;
+    width: 228px;
+  }
+  .racont{
+    display: flex;
+    background-color:black;
+  }
+  .racont > div{
+    background-color: white;
+    margin: 22px -77px 30px 85px;
+    padding: 12px 13px -5px -8px;
+    font-size: 30px;
+    height: 233px;
+    width: 166px;
+  }
+  .heading{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: -5px;
+    padding: 12px;
+  }
+  .rap{
+    height: 233px;
+    width: 166px;
+  }
+
+
+
+
+
